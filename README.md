@@ -1,4 +1,8 @@
 GitHub
 ======
 
-COMP1950 Learning git
+### COMP1950 Learning git
+
+* Learning git
+* Checking in
+* Checking out
