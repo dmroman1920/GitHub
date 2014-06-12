@@ -2,12 +2,31 @@
 <html>
 <head>
 <title>GIT Test</title>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $("#show").click(function(){
+                $("#title").show(3000);
+            })
+            
+            $("#hide").click(function(){
+                $("#title").hide(3000);
+            })
+            
+        })
+    </script>
 </head>
 <body>
 
-<h1>Learning git on github</h1>
+<div id="title"><h1>Learning git on github</h1></div>
 
 <p>This paragraph was edited on github</p>
+    
+    <ul>
+        <li id="show"><a href="#">Show Title</a></li>
+        <li id="hide"><a href="#">Hide Title</a></li>
+    </ul>
 
 </body>
 </html>
